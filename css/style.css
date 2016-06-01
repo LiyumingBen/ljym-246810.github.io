@@ -3389,7 +3389,7 @@ color
 .article-entry .highlight::before {
   content: attr(data-lang) " code";
   display: block;
-  background-color: #121617;
+  background-color: #1d1f20;
   margin: 0 -16px 16px -16px;
   padding: 8px 16px;
   color: #efefef;
