@@ -2133,11 +2133,11 @@ a {
 #header .header-nav .social a.weibo:hover {
   border: 1px solid #f00;
 }
-#header .header-nav .social a.Wechat {
-  background: url("/img/wechat.png") center no-repeat #ef7522;
+#header .header-nav .social a.rss {
+  background: url("/img/rss.png") center no-repeat #ef7522;
   border: 1px solid #ef7522;
 }
-#header .header-nav .social a.Wechat:hover {
+#header .header-nav .social a.rss:hover {
   border: 1px solid #ef7522;
 }
 #header .header-nav .social a.github {
@@ -2154,18 +2154,18 @@ a {
 #header .header-nav .social a.facebook:hover {
   border: 1px solid #3b5998;
 }
-#header .header-nav .social a.Twitter {
-  background: url("/img/Twitter.png") center no-repeat #f00;
+#header .header-nav .social a.google {
+  background: url("/img/google.png") center no-repeat #f00;
   border: 1px solid #f00;
 }
-#header .header-nav .social a.Twitter:hover {
+#header .header-nav .social a.google:hover {
   border: 1px solid #f00;
 }
-#header .header-nav .social a.qq {
-  background: url("/img/qq.png") center no-repeat #55cff8;
+#header .header-nav .social a.twitter {
+  background: url("/img/twitter.png") center no-repeat #55cff8;
   border: 1px solid #55cff8;
 }
-#header .header-nav .social a.qq:hover {
+#header .header-nav .social a.twitter:hover {
   border: 1px solid #55cff8;
 }
 #header .header-nav .social a.linkedin {
@@ -2189,11 +2189,11 @@ a {
 #header .header-nav .social a.douban:hover {
   border: 1px solid #06c611;
 }
-#header .header-nav .social a.csdn {
-  background: url("/img/csdn.png") center no-repeat #00abff;
+#header .header-nav .social a.mail {
+  background: url("/img/mail.png") center no-repeat #00abff;
   border: 1px solid #00abff;
 }
-#header .header-nav .social a.csdn:hover {
+#header .header-nav .social a.mail:hover {
   border: 1px solid #00abff;
 }
 #header .switch-part {
