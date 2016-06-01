@@ -2154,11 +2154,11 @@ a {
 #header .header-nav .social a.facebook:hover {
   border: 1px solid #3b5998;
 }
-#header .header-nav .social a.weibo1 {
-  background: url("/img/weibo1.png") center no-repeat #f00;
+#header .header-nav .social a.Twitter {
+  background: url("/img/Twitter.png") center no-repeat #f00;
   border: 1px solid #f00;
 }
-#header .header-nav .social a.weibo1:hover {
+#header .header-nav .social a.Twitter:hover {
   border: 1px solid #f00;
 }
 #header .header-nav .social a.qq {
@@ -2190,7 +2190,7 @@ a {
   border: 1px solid #06c611;
 }
 #header .header-nav .social a.csdn {
-  background: url("/img/pinboard.png") center no-repeat #00abff;
+  background: url("/img/csdn.png") center no-repeat #00abff;
   border: 1px solid #00abff;
 }
 #header .header-nav .social a.csdn:hover {
@@ -2375,26 +2375,26 @@ color
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-.archives-wrap {
+core.archives-wrap {
   position: relative;
   margin: 0 30px;
   padding-right: 60px;
   border-bottom: 2px solid #2f2f2f;
 }
-.archives-wrap:first-child {
+core.archives-wrap:first-child {
   margin-top: 30px;
 }
-.archives-wrap:last-child {
+core.archives-wrap:last-child {
   margin-bottom: 80px;
 }
-.archives-wrap .archive-year-wrap {
+core.archives-wrap .archive-year-wrap {
   line-height: 35px;
   width: 200px;
   position: absolute;
   padding-top: 15px;
   font-size: 1.8em;
 }
-.archives-wrap .archive-year-wrap a {
+core.archives-wrap .archive-year-wrap a {
   color: #999;
   font-weight: bold;
   padding-left: 48px;
@@ -3077,26 +3077,26 @@ color
     transform: scale(1);
   }
 }
-.archives-wrap {
+core.archives-wrap {
   position: relative;
   margin: 0 30px;
   padding-right: 60px;
   border-bottom: 2px solid #2f2f2f;
 }
-.archives-wrap:first-child {
+core.archives-wrap:first-child {
   margin-top: 30px;
 }
-.archives-wrap:last-child {
+core.archives-wrap:last-child {
   margin-bottom: 80px;
 }
-.archives-wrap .archive-year-wrap {
+core.archives-wrap .archive-year-wrap {
   line-height: 35px;
   width: 200px;
   position: absolute;
   padding-top: 15px;
   font-size: 1.8em;
 }
-.archives-wrap .archive-year-wrap a {
+core.archives-wrap .archive-year-wrap a {
   color: #999;
   font-weight: bold;
   padding-left: 48px;
