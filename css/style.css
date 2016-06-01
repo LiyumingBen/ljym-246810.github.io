@@ -3247,13 +3247,13 @@ color
   border: none;
 }
 .article-entry pre {
-  color: #efeaea;
+  color: #999;
 }
 .article-entry pre code {
   background: none;
   text-shadow: none;
   padding: 0;
-  color: #efeaea;
+  color: #999;
 }
 .article-entry p code {
   margin: 0 3px;
@@ -3389,7 +3389,7 @@ color
 .article-entry .highlight::before {
   content: attr(data-lang) " code";
   display: block;
-  background-color: #0083a0;
+  background-color: #121617;
   margin: 0 -16px 16px -16px;
   padding: 8px 16px;
   color: #efefef;
@@ -3534,7 +3534,7 @@ pre .class .params {
 pre .params,
 pre .function,
 pre .css .value {
-  color: #efeaea;
+  color: #999;
 }
 pre .css ~ * .tag,
 pre .at_rule,
