@@ -2133,11 +2133,11 @@ a {
 #header .header-nav .social a.weibo:hover {
   border: 1px solid #f00;
 }
-#header .header-nav .social a.rss {
-  background: url("/img/rss.png") center no-repeat #ef7522;
+#header .header-nav .social a.Wechat {
+  background: url("/img/wechat.png") center no-repeat #ef7522;
   border: 1px solid #ef7522;
 }
-#header .header-nav .social a.rss:hover {
+#header .header-nav .social a.Wechat:hover {
   border: 1px solid #ef7522;
 }
 #header .header-nav .social a.github {
@@ -2154,18 +2154,18 @@ a {
 #header .header-nav .social a.facebook:hover {
   border: 1px solid #3b5998;
 }
-#header .header-nav .social a.google {
-  background: url("/img/google.png") center no-repeat #f00;
+#header .header-nav .social a.weibo1 {
+  background: url("/img/weibo1.png") center no-repeat #f00;
   border: 1px solid #f00;
 }
-#header .header-nav .social a.google:hover {
+#header .header-nav .social a.weibo1:hover {
   border: 1px solid #f00;
 }
-#header .header-nav .social a.twitter {
-  background: url("/img/twitter.png") center no-repeat #55cff8;
+#header .header-nav .social a.qq {
+  background: url("/img/qq.png") center no-repeat #55cff8;
   border: 1px solid #55cff8;
 }
-#header .header-nav .social a.twitter:hover {
+#header .header-nav .social a.qq:hover {
   border: 1px solid #55cff8;
 }
 #header .header-nav .social a.linkedin {
@@ -2189,11 +2189,11 @@ a {
 #header .header-nav .social a.douban:hover {
   border: 1px solid #06c611;
 }
-#header .header-nav .social a.mail {
-  background: url("/img/mail.png") center no-repeat #00abff;
+#header .header-nav .social a.csdn {
+  background: url("/img/pinboard.png") center no-repeat #00abff;
   border: 1px solid #00abff;
 }
-#header .header-nav .social a.mail:hover {
+#header .header-nav .social a.csdn:hover {
   border: 1px solid #00abff;
 }
 #header .switch-part {
@@ -3211,7 +3211,7 @@ color
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #002b36;
+  background: #1d2426;
   margin: 10px 0;
   padding: 10px 10px;
   overflow: auto;
@@ -3389,7 +3389,7 @@ color
 .article-entry .highlight::before {
   content: attr(data-lang) " code";
   display: block;
-  background-color: #0083a0;
+  background-color: #1d1f20;
   margin: 0 -16px 16px -16px;
   padding: 8px 16px;
   color: #efefef;
@@ -3460,7 +3460,7 @@ color
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #002b36;
+  background: #1d2426;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -3486,7 +3486,7 @@ color
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #002b36;
+  background: #1d2426;
   color: highlight-comment;
   font: 0.85em "Lucida Grande", Verdana, "Helvetica Neue", Arial, sans-serif;
   text-shadow: 0 0;
