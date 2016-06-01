@@ -3211,7 +3211,7 @@ color
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #002b36;
+  background: #222529;
   margin: 10px 0;
   padding: 10px 10px;
   overflow: auto;
@@ -3247,13 +3247,13 @@ color
   border: none;
 }
 .article-entry pre {
-  color: #fff;
+  color: #efeaea;
 }
 .article-entry pre code {
   background: none;
   text-shadow: none;
   padding: 0;
-  color: #fff;
+  color: #efeaea;
 }
 .article-entry p code {
   margin: 0 3px;
@@ -3460,7 +3460,7 @@ color
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #002b36;
+  background: #222529;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -3486,7 +3486,7 @@ color
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #002b36;
+  background: #222529;
   color: highlight-comment;
   font: 0.85em "Lucida Grande", Verdana, "Helvetica Neue", Arial, sans-serif;
   text-shadow: 0 0;
@@ -3534,7 +3534,7 @@ pre .class .params {
 pre .params,
 pre .function,
 pre .css .value {
-  color: #fff;
+  color: #efeaea;
 }
 pre .css ~ * .tag,
 pre .at_rule,
