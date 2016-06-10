@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>李玉明</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="CSS样式对浏览器的兼容性问题ICSS兼容常用技巧
+1.div的垂直居中问题vertical-align:middle; 将行距增加到和整个DIV一样高 line-height:200px; 然后插入文字，就垂直居中了。缺点是要控制内容不要换行
+2. margin加倍的问题设置为float的div在ie下设置的margin会加倍。这是一个ie6都存在的bug。解决方案是在这个div里面加上disp">
+<meta property="og:type" content="article">
+<meta property="og:title" content="李玉明">
+<meta property="og:url" content="http://yoursite.com/2016/06/10/CSS样式对浏览器的兼容性问题/index.html">
+<meta property="og:site_name" content="李玉明">
+<meta property="og:description" content="CSS样式对浏览器的兼容性问题ICSS兼容常用技巧
+1.div的垂直居中问题vertical-align:middle; 将行距增加到和整个DIV一样高 line-height:200px; 然后插入文字，就垂直居中了。缺点是要控制内容不要换行
+2. margin加倍的问题设置为float的div在ie下设置的margin会加倍。这是一个ie6都存在的bug。解决方案是在这个div里面加上disp">
+<meta property="og:updated_time" content="2016-06-10T12:02:49.704Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="李玉明">
+<meta name="twitter:description" content="CSS样式对浏览器的兼容性问题ICSS兼容常用技巧
+1.div的垂直居中问题vertical-align:middle; 将行距增加到和整个DIV一样高 line-height:200px; 然后插入文字，就垂直居中了。缺点是要控制内容不要换行
+2. margin加倍的问题设置为float的div在ie下设置的margin会加倍。这是一个ie6都存在的bug。解决方案是在这个div里面加上disp">
+  
+    <link rel="alternative" href="/atom.xml" title="李玉明" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/head.jpg" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/">liyuming</a></h1>
+        </hgroup>
+
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">博客首页</a></li>
+                        
+                            <li><a href="/archives">作品展示</a></li>
+                        
+                            <li><a href="/">随笔</a></li>
+                        
+                            <li><a href="/archives">静心阅读</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl mail" target="_blank" href="http://my.csdn.net/github_35151727" title="mail">mail</a>
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/ljym-246810" title="github">github</a>
+                            
+                                <a class="fl zhihu" target="_blank" href="https://www.zhihu.com/people/li-yu-ming122" title="zhihu">zhihu</a>
+                            
+                                <a class="fl weibo" target="_blank" href="http://weibo.com/3888047260" title="weibo">weibo</a>
+                            
+                                <a class="fl google" target="_blank" href="http://weibo.com/u/5089556680?is_all=1" title="google">google</a>
+                            
+                                <a class="fl twitter" target="_blank" href="https://wx.qq.com/" title="twitter">twitter</a>
+                            
+                                <a class="fl facebook" target="_blank" href="http://t.qq.com/liujia1046408090?setTheme=1" title="facebook">facebook</a>
+                            
+                                <a class="fl rss" target="_blank" href="http://www.renren.com/860433942#nogo" title="rss">rss</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://MOxFIVE.github.io/">MOxFIVE</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.vsay.cn/">DoubleV</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.ccwebsite.com/">兮兮</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.dandyweng.com/">翁天信</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.plqblog.com/views/index.php">潘利强</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.hankin.cn/">hankin</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.waydrow.com/">waydrow</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://silenceport.com">喻南航</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://hubojing.coding.me/">胡博靖</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.lzkzhiliang.com/">zhiliang</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://weilai5432.github.io/">未来部落</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.qiujinfeng.com/">qiujinfeng</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">编程是一种单调的生活，因此程序员比普通人需要更多的关怀，更多的友情。</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">liyuming</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">liyuming</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">博客首页</a></li>
+                
+                    <li><a href="/archives">作品展示</a></li>
+                
+                    <li><a href="/">随笔</a></li>
+                
+                    <li><a href="/archives">静心阅读</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="mail" target="_blank" href="http://my.csdn.net/github_35151727" title="mail">mail</a>
+                    
+                        <a class="github" target="_blank" href="https://github.com/ljym-246810" title="github">github</a>
+                    
+                        <a class="zhihu" target="_blank" href="https://www.zhihu.com/people/li-yu-ming122" title="zhihu">zhihu</a>
+                    
+                        <a class="weibo" target="_blank" href="http://weibo.com/3888047260" title="weibo">weibo</a>
+                    
+                        <a class="google" target="_blank" href="http://weibo.com/u/5089556680?is_all=1" title="google">google</a>
+                    
+                        <a class="twitter" target="_blank" href="https://wx.qq.com/" title="twitter">twitter</a>
+                    
+                        <a class="facebook" target="_blank" href="http://t.qq.com/liujia1046408090?setTheme=1" title="facebook">facebook</a>
+                    
+                        <a class="rss" target="_blank" href="http://www.renren.com/860433942#nogo" title="rss">rss</a>
+                    
+                </div>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap"><article id="post-CSS样式对浏览器的兼容性问题" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/10/CSS样式对浏览器的兼容性问题/" class="article-date">
+      <time datetime="2016-06-10T12:02:49.121Z" itemprop="datePublished">2016-06-10</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="CSS样式对浏览器的兼容性问题"><a href="#CSS样式对浏览器的兼容性问题" class="headerlink" title="CSS样式对浏览器的兼容性问题"></a>CSS样式对浏览器的兼容性问题</h1><h2 id="ICSS兼容常用技巧"><a href="#ICSS兼容常用技巧" class="headerlink" title="ICSS兼容常用技巧"></a>ICSS兼容常用技巧</h2><hr>
+<h2 id="1-div的垂直居中问题"><a href="#1-div的垂直居中问题" class="headerlink" title="1.div的垂直居中问题"></a>1.div的垂直居中问题</h2><p>vertical-align:middle; 将行距增加到和整个DIV一样高 line-height:200px; 然后插入文字，就垂直居中了。缺点是要控制内容不要换行</p>
+<h2 id="2-margin加倍的问题"><a href="#2-margin加倍的问题" class="headerlink" title="2. margin加倍的问题"></a>2. margin加倍的问题</h2><p>设置为float的div在ie下设置的margin会加倍。这是一个ie6都存在的bug。解决方案是在这个div里面加上display:inline;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">----------</span><br><span class="line">　　&lt;div id=&quot;imfloat&quot;&gt; </span><br><span class="line">----------</span><br><span class="line">　　#imfloat&#123; </span><br><span class="line">　　float:left; </span><br><span class="line">　　margin:5px;</span><br><span class="line">　　/*IE下理解为10px*/ </span><br><span class="line">　　display:inline;</span><br><span class="line">　　/*IE下再理解为5px*/&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="3-浮动ie产生的双倍距离"><a href="#3-浮动ie产生的双倍距离" class="headerlink" title="3.浮动ie产生的双倍距离"></a>3.浮动ie产生的双倍距离</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">　#box&#123; </span><br><span class="line">　float:left; </span><br><span class="line">　width:100px; </span><br><span class="line">　margin:0 0 0 100px; </span><br><span class="line">　//这种情况之下IE会产生200px的距离 </span><br><span class="line">　display:inline; </span><br><span class="line">　//使浮动忽略</span><br><span class="line">　&#125;</span><br></pre></td></tr></table></figure>
+<p>这里细说一下block与inline两个元素：block元素的特点是,总是在新行上开始,高度,宽度,行高,边距都可以控制(块元素);Inline元素的特点是,和其他元素在同一行上,不可控制(内嵌元素);<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#box&#123; </span><br><span class="line">display:block; </span><br><span class="line">//可以为内嵌元素模拟为块元素 </span><br><span class="line">display:inline; </span><br><span class="line">//实现同一行排列的效果 </span><br><span class="line">diplay:table;</span><br></pre></td></tr></table></figure></p>
+<h2 id="4-IE与宽度和高度的问题"><a href="#4-IE与宽度和高度的问题" class="headerlink" title="4 IE与宽度和高度的问题"></a>4 IE与宽度和高度的问题</h2><p>   IE不认得min-这个定义，但实际上它把正常的width和height当作有min的情况来使。这样问题就大了，如果只用宽度和高度，正常的浏览器里这两个值就不会变，如果只用min-width和min-height的话，IE下面根本等于没有设置宽度和高度。<br>　　比如要设置背景图片，这个宽度是比较重要的。要解决这个问题，可以这样</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">　#box&#123; </span><br><span class="line">　width: 80px; </span><br><span class="line">　height: 35px;</span><br><span class="line">　&#125;</span><br><span class="line">　html&gt;body #box&#123; </span><br><span class="line">　width: auto; </span><br><span class="line">　height: auto; </span><br><span class="line">　min-width: 80px; </span><br><span class="line">　min-height: 35px;</span><br><span class="line">　&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="5-页面的最小宽度"><a href="#5-页面的最小宽度" class="headerlink" title="5.页面的最小宽度"></a>5.页面的最小宽度</h2><p>min-width是个非常方便的CSS命令，它可以指定元素最小也不能小于某个宽度，这样就能保证排版一直正确。但IE不认得这个，而它实际上把 width当做最小宽度来使。为了让这一命令在IE上也能用，可以把一个＜div&gt; 放到 ＜body&gt; 标签下，然后为div指定一个类,然后CSS这样设计：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#container&#123; </span><br><span class="line">min-width: 600px; </span><br><span class="line">width:expression(document.body.clientWidth ＜ 600? &quot;600px&quot;: &quot;auto&quot; );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>第一个min-width是正常的；但第2行的width使用了Javascript，这只有IE才认得，这也会让你的HTML文档不太正规。它实际上通过Javascript的判断来实现最小宽度。</p>
+<h2 id="6-DIV浮动IE文本产生3象素的bug"><a href="#6-DIV浮动IE文本产生3象素的bug" class="headerlink" title="6.DIV浮动IE文本产生3象素的bug"></a>6.DIV浮动IE文本产生3象素的bug</h2><p>　左边对象浮动，右边采用外补丁的左边距来定位，右边对象内的文本会离左边有3px的间距<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">　　#box&#123; </span><br><span class="line">　　float:left; </span><br><span class="line">　　width:800px;</span><br><span class="line">　　&#125; </span><br><span class="line">　　#left&#123; </span><br><span class="line">　　float:left; </span><br><span class="line">　　width:50%;</span><br><span class="line">　　&#125; </span><br><span class="line">　　#right&#123; </span><br><span class="line">　　width:50%;</span><br><span class="line">　　&#125; </span><br><span class="line">　　*html #left&#123; </span><br><span class="line">　　margin-right:-3px; //这句是关键</span><br><span class="line">　　&#125; </span><br><span class="line">　　&lt;div id=&quot;box&quot;&gt; </span><br><span class="line">　　&lt;div id=&quot;left&quot;&gt;＜/div&gt; </span><br><span class="line">　　&lt;div id=&quot;right&quot;&gt;＜/div&gt; </span><br><span class="line">　　&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="7-IE捉迷藏的问题"><a href="#7-IE捉迷藏的问题" class="headerlink" title="7.IE捉迷藏的问题"></a>7.IE捉迷藏的问题</h2><p>　当div应用复杂的时候每个栏中又有一些链接，DIV等这个时候容易发生捉迷藏的问题。<br>　　有些内容显示不出来，当鼠标选择这个区域是发现内容确实在页面。 解决办法：对#layout使用line-height属性 或者给#layout使用固定高和宽。页面结构尽量简单。
+　　</p>
+<h2 id="8-float的div闭合-清除浮动-自适应高度"><a href="#8-float的div闭合-清除浮动-自适应高度" class="headerlink" title="8.float的div闭合;清除浮动;自适应高度"></a>8.float的div闭合;清除浮动;自适应高度</h2><p>   ①例如：＜#div id=”floatA” &gt;＜#div id=”floatB” &gt;＜#div id=”NOTfloatC” &gt;这里的NOTfloatC并不希望继续平移，而是希望往下排。(其中floatA、floatB的属性已经设置为float:left;)<br>　　这段代码在IE中毫无问题，问题出在FF。原因是NOTfloatC并非float标签，必须将float标签闭合。在 ＜#div class=”floatB”&gt; ＜#div class=”NOTfloatC”&gt;之间加上 ＜#div class=”clear”&gt;这个div一定要注意位置，而且必须与两个具有float属性的div同级，之间不能存在嵌套关系，否则会产生异常。并且将clear这种样式定义为为如下即可： .clear{ clear:both;}<br>　　②作为外部 wrapper 的 div 不要定死高度,为了让高度能自动适应，要在wrapper里面加上overflow:hidden; 当包含float的box的时候，高度自动适应在IE下无效，这时候应该触发IE的layout私有属性(万恶的IE啊！)用zoom:1;可以做到，这样就达到了兼容。<br>　　例如某一个wrapper如下定义：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.colwrapper&#123; </span><br><span class="line">overflow:hidden; </span><br><span class="line">zoom:1; </span><br><span class="line">margin:5px auto;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>　③对于排版,我们用得最多的css描述可能就是float:left.有的时候我们需要在n栏的float div后面做一个统一的背景,譬如:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">　&lt;div id=”page”&gt; </span><br><span class="line">　　&lt;div id=”left”&gt;＜/div&gt; </span><br><span class="line">　　&lt;div id=”center”&gt;＜/div&gt; </span><br><span class="line">　　&lt;div id=”right”&gt;＜/div&gt; </span><br><span class="line">　　&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>比如我们要将page的背景设置成蓝色,以达到所有三栏的背景颜色是蓝色的目的,但是我们会发现随着left center right的向下拉长,而page居然保存高度不变,问题来了,原因在于page不是float属性,而我们的page由于要居中,不能设置成 float,所以我们应该这样解决<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">　&lt;div id=”page”&gt; </span><br><span class="line">　　&lt;div id=”bg” style=”float:left;width:100%”&gt; </span><br><span class="line">　　&lt;div id=”left”&gt;＜/div&gt; </span><br><span class="line">　　&lt;div id=”center”&gt;＜/div&gt; </span><br><span class="line">　　&lt;div id=”right”&gt;＜/div&gt; </span><br><span class="line">　　&lt;/div&gt; </span><br><span class="line">　　&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>　再嵌入一个float left而宽度是100%的DIV解决之道。</p>
+<p>　　④万能float 闭合(非常重要!)<br>　　关于 clear float 的原理可参见 [How To Clear Floats Without Structural Markup],将以下代码加入Global CSS 中,给需要闭合的div加上 class=”clearfix” 即可,屡试不爽.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">　/* Clear Fix */ </span><br><span class="line">　　.clearfix:after &#123; content:&quot;.&quot;; display:block; height:0; clear:both; visibility:hidden; &#125; </span><br><span class="line">　　.clearfix &#123; display:inline-block; &#125; </span><br><span class="line">　　/* Hide from IE Mac */ </span><br><span class="line">　　.clearfix &#123;display:block;&#125; </span><br><span class="line">　　/* End hide from IE Mac */ </span><br><span class="line">　　/* end of clearfix */</span><br></pre></td></tr></table></figure></p>
+<p>或者这样设置：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.hackbox&#123; </span><br><span class="line">display:table; </span><br><span class="line">//将对象作为块元素级的表格显示</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="9．高度不能自适应"><a href="#9．高度不能自适应" class="headerlink" title="9．高度不能自适应"></a>9．高度不能自适应</h2><p>　高度不能自适应是当内层对象的高度发生变化时外层高度不能自动进行调节，特别是当内层对象使用margin 或paddign 时。<br>　　例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">　#box &#123;</span><br><span class="line">　background-color:#eee; </span><br><span class="line">　&#125; </span><br><span class="line">　　#box p &#123;</span><br><span class="line">　　margin-top: 20px;</span><br><span class="line">　　margin-bottom: 20px; </span><br><span class="line">　　text-align:center; </span><br><span class="line">　　&#125; </span><br><span class="line">　　&lt;div id=&quot;box&quot;&gt; </span><br><span class="line">　　&lt;p&gt;p对象中的内容＜/p&gt; </span><br><span class="line">　　&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>　　解决技巧：在P对象上下各加2个空的div对象CSS代码：.1{height:0px;overflow:hidden;}或者为DIV加上border属性。
+　</p>
+<h2 id="10-IE6下为什么图片下有空隙产生"><a href="#10-IE6下为什么图片下有空隙产生" class="headerlink" title="10 .IE6下为什么图片下有空隙产生"></a>10 .IE6下为什么图片下有空隙产生</h2><p>解决这个BUG的技巧也有很多,可以是改变html的排版,或者设置img 为display:block 或者设置vertical-align 属性为vertical-align:top<br>bottom 　middle 　text-bottom 都可以解决</p>
+<h2 id="11-如何对齐文本与文本输入框"><a href="#11-如何对齐文本与文本输入框" class="headerlink" title="11.如何对齐文本与文本输入框"></a>11.如何对齐文本与文本输入框</h2><p>　加上 vertical-align:middle;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">　&lt;style type=&quot;text/css&quot;&gt; </span><br><span class="line">　　&lt;!-- </span><br><span class="line">　　input &#123; </span><br><span class="line">　　width:200px; </span><br><span class="line">　　height:30px; </span><br><span class="line">　　border:1px solid red; </span><br><span class="line">　　vertical-align:middle; </span><br><span class="line">　　&#125; </span><br><span class="line">　　--&gt; </span><br><span class="line">　　&lt;/style&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="12-web标准中定义id与class有什么区别吗"><a href="#12-web标准中定义id与class有什么区别吗" class="headerlink" title="12.web标准中定义id与class有什么区别吗"></a>12.web标准中定义id与class有什么区别吗</h2><pre><code>(1).web标准中是不容许重复ID的,比如 div id=&quot;aa&quot; 不容许重复2次,而class 定义的是类,理论上可以无限重复, 这样需要多次引用的定义便可以使用他.
+</code></pre><p>　　(2).属性的优先级问题<br>　　ID 的优先级要高于class,看上面的例子<br>　　(3).方便JS等客户端脚本,如果在页面中要对某个对象进行脚本操作,那么可以给他定义一个ID,否则只能利用遍历页面元素加上指定特定属性来找到它,这是相对浪费时间资源,远远不如一个ID来得简单。
+　　</p>
+<h2 id="13-LI中内容超过长度后以省略号显示的技巧"><a href="#13-LI中内容超过长度后以省略号显示的技巧" class="headerlink" title="13. LI中内容超过长度后以省略号显示的技巧"></a>13. LI中内容超过长度后以省略号显示的技巧</h2><p>此技巧适用与IE与OP浏览器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">　&lt;style type=&quot;text/css&quot;&gt; </span><br><span class="line">　　&lt;!-- </span><br><span class="line">　　li &#123; </span><br><span class="line">　　width:200px; </span><br><span class="line">　　white-space:nowrap; </span><br><span class="line">　　text-overflow:ellipsis; </span><br><span class="line">　　-o-text-overflow:ellipsis; </span><br><span class="line">　　overflow: hidden; </span><br><span class="line">　　&#125;</span><br><span class="line">　　--&gt; </span><br><span class="line">　　&lt;/style&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="14-为什么web标准中IE无法设置滚动条颜色了"><a href="#14-为什么web标准中IE无法设置滚动条颜色了" class="headerlink" title="14.为什么web标准中IE无法设置滚动条颜色了"></a>14.为什么web标准中IE无法设置滚动条颜色了</h2><p>解决办法是将body换成html<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt; </span><br><span class="line">　　&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=gb2312&quot; /&gt; </span><br><span class="line">　　&lt;style type=&quot;text/css&quot;&gt; </span><br><span class="line">　　&lt;!-- </span><br><span class="line">　　html &#123; </span><br><span class="line">　　scrollbar-face-color:#f6f6f6; </span><br><span class="line">　　scrollbar-highlight-color:#fff; </span><br><span class="line">　　scrollbar-shadow-color:#eeeeee; </span><br><span class="line">　　scrollbar-3dlight-color:#eeeeee; </span><br><span class="line">　　scrollbar-arrow-color:#000; </span><br><span class="line">　　scrollbar-track-color:#fff; </span><br><span class="line">　　scrollbar-darkshadow-color:#fff; </span><br><span class="line">　　&#125; </span><br><span class="line">　　--&gt; </span><br><span class="line">　　＜/style&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="15-为什么无法定义1px左右高度的容器"><a href="#15-为什么无法定义1px左右高度的容器" class="headerlink" title="15.为什么无法定义1px左右高度的容器"></a>15.为什么无法定义1px左右高度的容器</h2><p>IE6下这个问题是因为默认的行高造成的,解决的技巧也有很多,例如:<br>　　overflow:hidden 　 zoom:0.08 　 line-height:1p
+　　</p>
+<h2 id="16-怎么样才能让层显示在FLASH之上"><a href="#16-怎么样才能让层显示在FLASH之上" class="headerlink" title="16.怎么样才能让层显示在FLASH之上"></a>16.怎么样才能让层显示在FLASH之上</h2><p>解决的办法是给FLASH设置透明<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="17-怎样使一个层垂直居中于浏览器中"><a href="#17-怎样使一个层垂直居中于浏览器中" class="headerlink" title="17.怎样使一个层垂直居中于浏览器中"></a>17.怎样使一个层垂直居中于浏览器中</h2><p>　这里我们使用百分比绝对定位,与外补丁负值的技巧,负值的大小为其自身宽度高度除以二</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;style type=&quot;text/css&quot;&gt; </span><br><span class="line">　　&lt;!-- </span><br><span class="line">　　div &#123; </span><br><span class="line">　　position:absolute; </span><br><span class="line">　　top:50%; </span><br><span class="line">　　lef:50%; </span><br><span class="line">　　margin:-100px 0 0 -100px; </span><br><span class="line">　　width:200px; </span><br><span class="line">　　height:200px; </span><br><span class="line">　　border:1px solid red; </span><br><span class="line">　　&#125; </span><br><span class="line">　　--&gt; </span><br><span class="line">　　&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/06/10/CSS样式对浏览器的兼容性问题/"></a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 liyuming 的个人博客">liyuming</a></p>
+        <p><span>发布时间:</span>2016年06月10日 - 20时02分</p>
+        <p><span>最后更新:</span>2016年06月10日 - 20时02分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/06/10/CSS样式对浏览器的兼容性问题/" title="">http://yoursite.com/2016/06/10/CSS样式对浏览器的兼容性问题/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/06/10/CSS样式对浏览器的兼容性问题/　　作者: liyuming" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+    <a href="/2016/06/10/chengxuyuan/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          如何成为一个优秀的码农
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/05/28/Web前端面试题目汇总/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">前端面试题</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#CSS样式对浏览器的兼容性问题"><span class="toc-number">1.</span> <span class="toc-text">CSS样式对浏览器的兼容性问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#ICSS兼容常用技巧"><span class="toc-number">1.1.</span> <span class="toc-text">ICSS兼容常用技巧</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-div的垂直居中问题"><span class="toc-number">1.2.</span> <span class="toc-text">1.div的垂直居中问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-margin加倍的问题"><span class="toc-number">1.3.</span> <span class="toc-text">2. margin加倍的问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-浮动ie产生的双倍距离"><span class="toc-number">1.4.</span> <span class="toc-text">3.浮动ie产生的双倍距离</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-IE与宽度和高度的问题"><span class="toc-number">1.5.</span> <span class="toc-text">4 IE与宽度和高度的问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-页面的最小宽度"><span class="toc-number">1.6.</span> <span class="toc-text">5.页面的最小宽度</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-DIV浮动IE文本产生3象素的bug"><span class="toc-number">1.7.</span> <span class="toc-text">6.DIV浮动IE文本产生3象素的bug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-IE捉迷藏的问题"><span class="toc-number">1.8.</span> <span class="toc-text">7.IE捉迷藏的问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-float的div闭合-清除浮动-自适应高度"><span class="toc-number">1.9.</span> <span class="toc-text">8.float的div闭合;清除浮动;自适应高度</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9．高度不能自适应"><span class="toc-number">1.10.</span> <span class="toc-text">9．高度不能自适应</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-IE6下为什么图片下有空隙产生"><span class="toc-number">1.11.</span> <span class="toc-text">10 .IE6下为什么图片下有空隙产生</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-如何对齐文本与文本输入框"><span class="toc-number">1.12.</span> <span class="toc-text">11.如何对齐文本与文本输入框</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#12-web标准中定义id与class有什么区别吗"><span class="toc-number">1.13.</span> <span class="toc-text">12.web标准中定义id与class有什么区别吗</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#13-LI中内容超过长度后以省略号显示的技巧"><span class="toc-number">1.14.</span> <span class="toc-text">13. LI中内容超过长度后以省略号显示的技巧</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#14-为什么web标准中IE无法设置滚动条颜色了"><span class="toc-number">1.15.</span> <span class="toc-text">14.为什么web标准中IE无法设置滚动条颜色了</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#15-为什么无法定义1px左右高度的容器"><span class="toc-number">1.16.</span> <span class="toc-text">15.为什么无法定义1px左右高度的容器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#16-怎么样才能让层显示在FLASH之上"><span class="toc-number">1.17.</span> <span class="toc-text">16.怎么样才能让层显示在FLASH之上</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#17-怎样使一个层垂直居中于浏览器中"><span class="toc-number">1.18.</span> <span class="toc-text">17.怎样使一个层垂直居中于浏览器中</span></a></li></ol></li></ol>
+</div>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
+
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/06/10/CSS样式对浏览器的兼容性问题/" data-title="" data-url="http://yoursite.com/2016/06/10/CSS样式对浏览器的兼容性问题/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"null"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = '/js/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/06/10/chengxuyuan/" title="上一篇: 如何成为一个优秀的码农">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2016/05/28/Web前端面试题目汇总/" title="下一篇: 前端面试题">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/06/10/chengxuyuan/">如何成为一个优秀的码农</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/10/CSS样式对浏览器的兼容性问题/">CSS样式对浏览器的兼容性问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/28/Web前端面试题目汇总/">前端面试题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/27/chengxuyuan1md/">程序员爱情观</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/27/一道常被人轻视的前端JS面试题/">JS篇</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/26/无标题Markdown/">程序员之路</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2016 liyuming
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >海贼到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 24;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
+
+
+  </div>
+</body>
+</html>
