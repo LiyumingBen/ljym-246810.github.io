@@ -5,23 +5,20 @@
   
   <title>JS篇 | 李玉明</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一道常被人轻视的前端JS面试题标签（空格分隔）： JavaScript
-
-1234567891011121314151617181920212223242526function Foo() &amp;#123;getName = function () &amp;#123; alert (1); &amp;#125;;return this;&amp;#125;Foo.getName = function () &amp;#123;al">
+  <meta name="description" content="一道常被人轻视的前端JS面试题
+1234567891011121314151617181920212223242526function Foo() &amp;#123;getName = function () &amp;#123; alert (1); &amp;#125;;return this;&amp;#125;Foo.getName = function () &amp;#123;alert (2);&amp;#125;;Foo.pr">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JS篇">
 <meta property="og:url" content="http://yoursite.com/2016/05/27/一道常被人轻视的前端JS面试题/index.html">
 <meta property="og:site_name" content="李玉明">
-<meta property="og:description" content="一道常被人轻视的前端JS面试题标签（空格分隔）： JavaScript
-
-1234567891011121314151617181920212223242526function Foo() &amp;#123;getName = function () &amp;#123; alert (1); &amp;#125;;return this;&amp;#125;Foo.getName = function () &amp;#123;al">
+<meta property="og:description" content="一道常被人轻视的前端JS面试题
+1234567891011121314151617181920212223242526function Foo() &amp;#123;getName = function () &amp;#123; alert (1); &amp;#125;;return this;&amp;#125;Foo.getName = function () &amp;#123;alert (2);&amp;#125;;Foo.pr">
 <meta property="og:image" content="http://images2015.cnblogs.com/blog/746158/201602/746158-20160214172948591-1509302580.png">
-<meta property="og:updated_time" content="2016-06-10T12:26:31.428Z">
+<meta property="og:updated_time" content="2016-06-11T09:28:10.149Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JS篇">
-<meta name="twitter:description" content="一道常被人轻视的前端JS面试题标签（空格分隔）： JavaScript
-
-1234567891011121314151617181920212223242526function Foo() &amp;#123;getName = function () &amp;#123; alert (1); &amp;#125;;return this;&amp;#125;Foo.getName = function () &amp;#123;al">
+<meta name="twitter:description" content="一道常被人轻视的前端JS面试题
+1234567891011121314151617181920212223242526function Foo() &amp;#123;getName = function () &amp;#123; alert (1); &amp;#125;;return this;&amp;#125;Foo.getName = function () &amp;#123;alert (2);&amp;#125;;Foo.pr">
 <meta name="twitter:image" content="http://images2015.cnblogs.com/blog/746158/201602/746158-20160214172948591-1509302580.png">
   
     <link rel="alternative" href="/atom.xml" title="李玉明" type="application/atom+xml">
@@ -299,8 +296,7 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="一道常被人轻视的前端JS面试题"><a href="#一道常被人轻视的前端JS面试题" class="headerlink" title="一道常被人轻视的前端JS面试题"></a>一道常被人轻视的前端JS面试题</h1><p>标签（空格分隔）： JavaScript</p>
-<hr>
+        <h1 id="一道常被人轻视的前端JS面试题"><a href="#一道常被人轻视的前端JS面试题" class="headerlink" title="一道常被人轻视的前端JS面试题"></a>一道常被人轻视的前端JS面试题</h1><hr>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">function Foo() &#123;</span><br><span class="line">getName = function () &#123; alert (1); &#125;;</span><br><span class="line">return this;</span><br><span class="line">&#125;</span><br><span class="line">Foo.getName = function () &#123;</span><br><span class="line">alert (2);</span><br><span class="line">&#125;;</span><br><span class="line">Foo.prototype.getName = function () &#123; </span><br><span class="line">alert (3);</span><br><span class="line">&#125;;</span><br><span class="line">var getName = function () &#123;</span><br><span class="line">alert (4);</span><br><span class="line">&#125;;</span><br><span class="line">function getName() &#123; </span><br><span class="line">alert (5);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//请写出以下输出结果：</span><br><span class="line">Foo.getName();</span><br><span class="line">getName();</span><br><span class="line">Foo().getName();</span><br><span class="line">getName();</span><br><span class="line">new Foo.getName();</span><br><span class="line">new Foo().getName();</span><br><span class="line">new new Foo().getName();</span><br></pre></td></tr></table></figure>
 <hr>
 <p>答案是：</p>
@@ -370,7 +366,7 @@
         <p><span>本文标题:</span><a href="/2016/05/27/一道常被人轻视的前端JS面试题/">JS篇</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 liyuming 的个人博客">liyuming</a></p>
         <p><span>发布时间:</span>2016年05月27日 - 14时25分</p>
-        <p><span>最后更新:</span>2016年06月10日 - 20时26分</p>
+        <p><span>最后更新:</span>2016年06月11日 - 17时28分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/05/27/一道常被人轻视的前端JS面试题/" title="JS篇">http://yoursite.com/2016/05/27/一道常被人轻视的前端JS面试题/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/05/27/一道常被人轻视的前端JS面试题/　　作者: liyuming" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
