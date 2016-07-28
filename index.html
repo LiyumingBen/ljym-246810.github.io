@@ -151,7 +151,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/good/" style="font-size: 10px;">good</a> <a href="/tags/努力-奋斗/" style="font-size: 10px;">努力+奋斗</a> <a href="/tags/坑/" style="font-size: 10px;">坑</a> <a href="/tags/枚举算法/" style="font-size: 10px;">枚举算法</a> <a href="/tags/面试/" style="font-size: 10px;">面试</a>
+                        <a href="/tags/CSS/" style="font-size: 10px;">CSS</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/good/" style="font-size: 10px;">good</a> <a href="/tags/努力-奋斗/" style="font-size: 10px;">努力+奋斗</a> <a href="/tags/坑/" style="font-size: 10px;">坑</a> <a href="/tags/面试/" style="font-size: 10px;">面试</a>
                     </div>
                 </section>
                 
@@ -256,76 +256,6 @@
     </div>
 </nav>
       <div class="body-wrap">
-  
-    <article id="post-tags- 枚举算法" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/28/tags- 枚举算法/" class="article-date">
-      <time datetime="2016-07-28T12:11:30.000Z" itemprop="datePublished">2016-07-28</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/28/tags- 枚举算法/">算法</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="枚举算法"><a href="#枚举算法" class="headerlink" title="枚举算法"></a>枚举算法</h1><p>标签（空格分隔）： 枚举法</p>
-<hr>
-<p>　　枚举算法的思想是：将问题的所有可能答案一一列举，然后根据条件判断此答案是否合适，保留合适的，丢弃不合适的。在Ｃ语言中，枚举法一般使用while循环实现。使用枚举法解题的基本思路：<br>　　1.确定枚举对象、枚举范围和判定条件。<br>　　2.逐一枚举可能的解，验证每个解是否是问题的解。</p>
-<p>步骤：<br>　　１．解题的可能范围，不遗漏任何一个真正解，也要避免有重复。<br>　　２．判断是否是真正解的方法。<br>　　３．使可能解得范围降到最小，以至提高解决问题的效率。</p>
-<hr>
-<p>例题：<br>　　我国古代数学家在《算经》中有这样一道题：“鸡翁一，值钱五；母鸡一，值钱三；鸡雏三，值钱一。百钱买百鸡，问鸡翁，母、雏个几何?
-　　</p>
-<hr>
-<p>算法分析：<br>　　根据问题的描述，我们可以使用枚举法解决这个问题。我们以3只鸡的个数作为枚举对象（分别设mj、gj、xj）,以3种鸡的总数（mj+gj+xj=100）和买鸡用去的总钱数（mj<em>3+gj</em>5+xj/3=100）作为判定条件，穷举各种鸡的个数。</p>
-<hr>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()&#123;	</span><br><span class="line">	int x;</span><br><span class="line">	int y;</span><br><span class="line">	int z;</span><br><span class="line">	for(x=0;x&lt;=20;x++) &#123;</span><br><span class="line">		for(y=0;y&lt;=33;y++) &#123;</span><br><span class="line">			z = 100-x-y;</span><br><span class="line">			if(z%3==0&amp;&amp;x*5+y*3+z/3==100) &#123;</span><br><span class="line">				printf(&quot;公鸡：%d,母鸡:%d,小鸡：%d\n&quot;,x,y,z);</span><br><span class="line">		 &#125;</span><br><span class="line">	 &#125;</span><br><span class="line"> &#125;</span><br><span class="line">getch();</span><br><span class="line">return 0;	</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<p>执行效果：<br><img src="http://oant211eu.bkt.clouddn.com/%E6%9E%9A%E4%B8%BE.png" alt="此处输入图片的描述"></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/枚举算法/">枚举算法</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
   
     <article id="post-chengxuyuan" class="article article-type-post" itemscope itemprop="blogPost">
   
